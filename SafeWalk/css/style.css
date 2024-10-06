@@ -1,3 +1,29 @@
+body {
+    font-family: 'Roboto', 'Lato', sans-serif !important; /* Use !important if needed */
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'Lato', sans-serif !important; /* Apply Lato to all headings with more specificity */
+}
+
+  /* Flexbox to align logo and text horizontally */
+  .navbar-light .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .navbar-light .navbar-brand img {
+    max-height: 80px;
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  /* Align navbar items to the right on larger screens */
+  @media (min-width: 992px) {
+    .navbar-collapse {
+      justify-content: flex-end; /* Move items to the right */
+    }
+  }
 
 /*** Spinner Start ***/
 #spinner {
@@ -97,48 +123,21 @@
 }
 
 
-/*** Topbar Start ***/ 
-.topbar .dropdown-toggle::after {
-    border: none;
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    vertical-align: middle;
-    margin-left: 8px;
-    color: var(--bs-primary);
-}
-
-.topbar .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
-    color: var(--bs-white);
-}
-
-.topbar .dropdown .dropdown-menu {
-    transform: rotateX(0deg);
-    visibility: visible;
-    background: var(--bs-light);
-    padding-top: 10px;
-    border: 0;
-    transition: .5s;
-    opacity: 1;
-}
-/*** Topbar End ***/
-
-
 /*** Navbar Start ***/
 .nav-bar {
     background: var(--bs-white);
     transition: 1s;
+    height: auto;
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 60px;
-    transition: .5s;
+    max-height: 85px ; /* Set desired max height */
+    height: auto !important; /* Allow height to adjust */
+    width: auto !important; /* Maintain aspect ratio */
+    transition: .5s; /* Smooth transition */
 }
 
-.nav-bar .navbar-light .navbar-brand img {
-    max-height: 50px;
-}
+
 
 .navbar .navbar-nav .nav-item .nav-link {
     padding: 0;
@@ -211,7 +210,7 @@
 
 @media (min-width: 992px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
     }
 
     .navbar .nav-btn {
@@ -221,9 +220,9 @@
     }
 
     .navbar .navbar-nav {
-        width: 100%;
+        width: 80%;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
         background: var(--bs-light);
         border-radius: 10px;
@@ -364,6 +363,9 @@
 
 
 /*** Feature Start ***/
+.features{
+    margin: 60px -10px 60px -10px !important;
+}
 .feature .feature-item {
     border-radius: 10px;
     background: var(--bs-white);
@@ -434,10 +436,28 @@
     background: var(--bs-dark);
     color: var(--bs-white);
 }
+@media (min-width: 1200px) {
+    .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25% !important; /* Override the default width */
+    }
+}
+
 /*** Feature End ***/
 
 
 /*** Service Start ***/
+
+
+.custom-line {
+    width: 100px; /* Length of the line */
+    height: 2px !important; /* Thickness of the line */
+    background-color: #00BFFF; /* Color of the line */
+    border: none; /* Remove default border */
+    margin-left: 0; /* Align left */
+}
+
+
 .service .service-item {
     border-radius: 10px;
 }
@@ -446,6 +466,7 @@
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding: 10px 10px;
 }
 
 .service .service-item .service-img img {
@@ -506,6 +527,7 @@
 }
 
 .service .service-content {
+    margin: 10px;
     position: relative;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -650,6 +672,7 @@
 
 
 /*** Team Start ***/
+
 .team .team-item .team-img {
     position: relative;
     overflow: hidden;
@@ -701,6 +724,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: 0.5s;
+    width: 293px;
 }
 
 .team .team-item .team-title h4 {
@@ -710,6 +734,24 @@
 .team .team-item:hover .team-title {
     background: var(--bs-dark);
 }
+
+.team {
+    display: flex;                 /* Use flexbox */
+    flex-wrap: wrap;              /* Allow wrapping */
+    justify-content: center;       /* Center items horizontally */
+    align-items: flex-start;       /* Align items at the start vertically */
+    margin: 0 auto;               /* Center the container */
+    padding: 20px;                /* Optional padding */
+}
+
+.team-item {
+    display: flex;                /* Ensure team item uses flex */
+    flex-direction: column;       /* Stack contents vertically */
+    align-items: center;          /* Center items inside the team item */
+    text-align: center;           /* Center text */
+    margin: 10px;                 /* Add some spacing between items */
+}
+
 /*** Team End ***/
 
 
@@ -885,5 +927,3 @@
     border-top: 1px solid rgba(255, 255, 255, .08);
 }
 /*** copyright end ***/
-
-

@@ -14,18 +14,17 @@
                 Welcome To SafeWalk
               </h4>
               <h1 class="display-1 text-white mb-4">
-                A Real-Time Safety Companion 
+                A Real-Time Safety Companion
               </h1>
-              <h3 class="display-5 text-white mb-4">Always Close. Always Secure.</h3>
+              <h3 class="display-5 text-white mb-4">Always Close. &nbsp;&nbsp;Always Secure.</h3>
               <p class="mb-5 fs-5">
-                Committed to safeguarding your journey with
-              </p>
+                Committed to safeguarding your journey with real-time solutions that empower safe and confident movement in any setting. </p>
               <div
                 class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                 <a
                   class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
                   href="#">
-                  <!-- <i class="fas fa-play-circle me-2"></i>--> Login</a> 
+                  <!-- <i class="fas fa-play-circle me-2"></i>--> Login </a>
                 <a
                   class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2"
                   href="#">Signup</a>
@@ -51,7 +50,7 @@
           <div class="col-lg-5 animated fadeInLeft">
             <div class="calrousel-img">
               <img
-                src="img/carousel-2.png"
+                src="img/carousel-1.webp"
                 class="img-fluid w-100"
                 alt="" />
             </div>
@@ -64,9 +63,9 @@
               <h1 class="display-1 text-white mb-4">
                 A Real-Time Safety Companion
               </h1>
-              <h3 class="display-5 text-white mb-4">Always Close. Always Secure.</h3>
+              <h3 class="display-5 text-white mb-4">Always Close. &nbsp;&nbsp;Always Secure.</h3>
               <p class="mb-5 fs-5">
-              Committed to safeguarding your journey with
+                Empowering your travels with seamless safety features that ensure peace of mind wherever you go.
               </p>
               <div
                 class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
@@ -74,7 +73,7 @@
                   class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
                   href="#">
                   <!-- <i class="fas fa-play-circle me-2"></i> -->
-                   Login</a>
+                  Login</a>
                 <a
                   class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2"
                   href="#">Signup</a>
@@ -95,11 +94,10 @@
       class="text-center mx-auto pb-5 wow fadeInUp"
       data-wow-delay="0.2s"
       style="max-width: 800px">
-      <h4 class="text-primary">Insurance Provide you a Safe service</h4>
+      <h4 class="text-primary">SafeWalk Provides You with Reliable Protection</h4>
       <h1 class="display-4 mb-4">How does it Works?</h1>
       <p class="mb-0">
-      Our website is designed with to help you, step-by-step guidance, making it easy for you to navigate and use our services. We aim to assist you in the best possible way, ensuring that every step is clear and tailored to your needs.
-      </p>
+        Our platform is built to guide you effortlessly, offering step-by-step assistance to ensure safe and confident navigation. With user-friendly design and personalized features, SafeWalk helps you find secure routes and stay informed at every step, ensuring that your safety remains our top priority. </p>
     </div>
     <div class="row g-4">
       <div
@@ -107,13 +105,12 @@
         data-wow-delay="0.2s">
         <div class="feature-item p-4 pt-0">
           <div class="feature-icon p-4 mb-4">
-            <i class="far fa-handshake fa-3x"></i>
+          <i class="fas fa-id-card fa-3x"></i>
           </div>
-          <h4 class="mb-4">STEP:1 Sign up and set your preferences</h4>
+          <h4 class="mb-4">STEP 1: Sign up and set your preferences</h4>
           <p class="mb-4">
-            Create an account in secones and customize your safery settings. Choose trusted contacts who will receive eal-time updates when you start your journey.
+            Create an account in seconds and customize your settings. Choose trusted contacts who will receive real-time updates when you start your journey.
           </p>
-          <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
         </div>
       </div>
       <div
@@ -121,13 +118,11 @@
         data-wow-delay="0.4s">
         <div class="feature-item p-4 pt-0">
           <div class="feature-icon p-4 mb-4">
-            <i class="fa fa-dollar-sign fa-3x"></i>
+          <i class="fas fa-map-marker-alt fa-3x"></i>
           </div>
           <h4 class="mb-4">STEP 2: Share Your Location</h4>
           <p class="mb-4">
-            Activate location sharing with a single tap. Your selected contacts will monitor your movements in real time, ensuring you're always connected and secure.
-          </p>
-          <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+            Activate location sharing with a single tap. Your selected contacts will monitor your movements in real time, ensuring you're always connected and secure.</p>
         </div>
       </div>
       <div
@@ -135,13 +130,11 @@
         data-wow-delay="0.6s">
         <div class="feature-item p-4 pt-0">
           <div class="feature-icon p-4 mb-4">
-            <i class="fa fa-bullseye fa-3x"></i>
+          <i class="fas fa-shield-alt fa-3x"></i>
           </div>
           <h4 class="mb-4">STEP 3: Stay Safe & Alert</h4>
           <p class="mb-4">
-           If needed, trigger an emergency alert instantly to notify your contacts and locol authorities, allowing for immediate help and assistance.
-          </p>
-          <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+            If needed, trigger an emergency alert instantly to notify your contacts and local authorities and services, allowing for immediate help and assistance.</p>
         </div>
       </div>
       <!-- <div
@@ -170,28 +163,22 @@
     <div class="row g-5">
       <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
         <div class="about-item-content bg-white rounded p-5 h-100">
-          <h4 class="text-primary">About Our Company</h4>
-          <h1 class="display-4 mb-4">High Range of Exploring Protection</h1>
+          <h4 class="text-primary">Aim of The Website</h4>
+          <h1 class="display-4 mb-4">Navigating with Confidence and Security</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
-            debitis sint tempora. Corporis consequatur illo blanditiis
-            voluptates aperiam quos aliquam totam aliquid rem explicabo,
+            The aim of SafeWalk is to enhance personal safety and provide peace of mind to users through innovative and real-time solutions. By leveraging advanced technology, SafeWalk seeks to empower individuals with tools for secure navigation, enabling them to confidently traverse their surroundings.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            praesentium recusandae eligendi modi hic
+          With features like route planning, danger zone alerts, and visibility of nearby individuals, SafeWalk is committed to ensuring every journey is safe, informed, and stress-free. Our goal is to foster a sense of security for all users, making personal safety accessible and manageable in any setting.
           </p>
           <p class="text-dark">
-            <i class="fa fa-check text-primary me-3"></i>We can save your
-            money.
+            <i class="fa fa-check text-primary me-3"></i>We can keep you safe.
           </p>
           <p class="text-dark">
-            <i class="fa fa-check text-primary me-3"></i>Production or
-            trading of good
+            <i class="fa fa-check text-primary me-3"></i>Navigation made easy for everyone.
           </p>
           <p class="text-dark mb-4">
-            <i class="fa fa-check text-primary me-3"></i>Our life insurance
-            is flexible
+            <i class="fa fa-check text-primary me-3"></i>Our safety features are adaptable.
           </p>
           <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Information</a>
         </div>
@@ -212,10 +199,10 @@
                 <div class="counter-counting">
                   <span
                     class="text-primary fs-2 fw-bold"
-                    data-toggle="counter-up">129</span>
+                    data-toggle="counter-up">7500</span>
                   <span class="h1 fw-bold text-primary">+</span>
                 </div>
-                <h4 class="mb-0 text-dark">Insurance Policies</h4>
+                <h4 class="mb-0 text-dark">Users Protected</h4>
               </div>
             </div>
             <div class="col-sm-6">
@@ -223,10 +210,10 @@
                 <div class="counter-counting">
                   <span
                     class="text-primary fs-2 fw-bold"
-                    data-toggle="counter-up">99</span>
+                    data-toggle="counter-up">5000</span>
                   <span class="h1 fw-bold text-primary">+</span>
                 </div>
-                <h4 class="mb-0 text-dark">Awards WON</h4>
+                <h4 class="mb-0 text-dark">Routes Secured</h4>
               </div>
             </div>
             <div class="col-sm-6">
@@ -234,10 +221,10 @@
                 <div class="counter-counting">
                   <span
                     class="text-primary fs-2 fw-bold"
-                    data-toggle="counter-up">556</span>
+                    data-toggle="counter-up">1000</span>
                   <span class="h1 fw-bold text-primary">+</span>
                 </div>
-                <h4 class="mb-0 text-dark">Skilled Agents</h4>
+                <h4 class="mb-0 text-dark">Danger Zones Avoided</h4>
               </div>
             </div>
             <div class="col-sm-6">
@@ -245,10 +232,10 @@
                 <div class="counter-counting">
                   <span
                     class="text-primary fs-2 fw-bold"
-                    data-toggle="counter-up">967</span>
+                    data-toggle="counter-up">60</span>
                   <span class="h1 fw-bold text-primary">+</span>
                 </div>
-                <h4 class="mb-0 text-dark">Team Members</h4>
+                <h4 class="mb-0 text-dark">Cities Covered</h4>
               </div>
             </div>
           </div>
@@ -292,10 +279,9 @@
           <div class="service-content p-4">
             <div class="service-content-inner">
               <a href="#" class="d-inline-block h4 mb-4">24/7 Security Monitoring</a>
+              <hr class="custom-line">
               <p class="mb-4">
-              Continuous mal-time monitoring thuat lens local authorities in entergencies for imanediate assutarce, erytime, anywhere.
-              </p>
-              <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+              Continuous real-time monitoring that alerts local authorities in emergencies for immediate assistance, anytime, anywhere.   </p>
             </div>
           </div>
         </div>
@@ -316,10 +302,9 @@
           <div class="service-content p-4">
             <div class="service-content-inner">
               <a href="#" class="d-inline-block h4 mb-4">Emergency Alerts</a>
+              <hr class="custom-line">
               <p class="mb-4">
-                One-tap alerts to notify unteil contacts and ocal services with your theo location for swift responses in critical moments.
-              </p>
-              <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
+              One-tap alerts to notify trusted contacts and local services with your live location for swift responses in critical moments.  </p>
             </div>
           </div>
         </div>
@@ -340,11 +325,10 @@
           <div class="service-content p-4">
             <div class="service-content-inner">
               <a href="#" class="d-inline-block h4 mb-4">Safe Route Planning</a>
+              <hr class="custom-line">
               <p class="mb-4">
-                Personalized, safe route suggestions, ensuring users can confidently navigate the safeld aan in any
-                environment.
+              Personalized, safe route suggestions, ensuring users can confidently navigate the safest paths in any environment.                environment.
               </p>
-              <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Read More</a>
             </div>
           </div>
         </div>
@@ -375,7 +359,7 @@
         </div> -->
       <!-- </div> -->
       <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Services</a>
+        <a class="btn btn-primary rounded-pill py-3 px-5" href="services.php">More Services</a>
       </div>
     </div>
   </div>
@@ -404,7 +388,7 @@
                   data-bs-target="#collapseOne"
                   aria-expanded="true"
                   aria-controls="collapseOne">
-                  Q: What happens during Freshers' Week?
+                  Q: How does SafeWalk ensure my safety while walking?
                 </button>
               </h2>
               <div
@@ -413,12 +397,7 @@
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body rounded">
-                  A: Leverage agile frameworks to provide a robust synopsis
-                  for high level overviews. Iterative approaches to
-                  corporate strategy foster collaborative thinking to
-                  further the overall value proposition. Organically grow
-                  the holistic world view of disruptive innovation via
-                  workplace diversity and empowerment.
+                  A: SafeWalk uses real-time location tracking, smart route planning, and danger zone alerts to help you navigate safely. The app also lets you see nearby people and provides updates on potential risks, ensuring you're always informed and protected.
                 </div>
               </div>
             </div>
@@ -431,7 +410,7 @@
                   data-bs-target="#collapseTwo"
                   aria-expanded="false"
                   aria-controls="collapseTwo">
-                  Q: What is the transfer application process?
+                  Q: Can I use SafeWalk in any city?
                 </button>
               </h2>
               <div
@@ -440,12 +419,7 @@
                 aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  A: Leverage agile frameworks to provide a robust synopsis
-                  for high level overviews. Iterative approaches to
-                  corporate strategy foster collaborative thinking to
-                  further the overall value proposition. Organically grow
-                  the holistic world view of disruptive innovation via
-                  workplace diversity and empowerment.
+                  A: Yes! SafeWalk is active in 100+ cities and is continuously expanding. You can use the app to find safe routes and stay aware of your surroundings no matter where you are.
                 </div>
               </div>
             </div>
@@ -458,7 +432,7 @@
                   data-bs-target="#collapseThree"
                   aria-expanded="false"
                   aria-controls="collapseThree">
-                  Q: Why should I attend community college?
+                  Q: Is SafeWalk free to use?
                 </button>
               </h2>
               <div
@@ -467,12 +441,7 @@
                 aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  A: Leverage agile frameworks to provide a robust synopsis
-                  for high level overviews. Iterative approaches to
-                  corporate strategy foster collaborative thinking to
-                  further the overall value proposition. Organically grow
-                  the holistic world view of disruptive innovation via
-                  workplace diversity and empowerment.
+                  A: SafeWalk offers both free and premium features. The basic safety tools, including route planning and alerts, are available for free. Additional advanced features can be unlocked with a premium subscription.
                 </div>
               </div>
             </div>
@@ -480,7 +449,7 @@
         </div>
       </div>
       <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-        <img src="img/carousel-2.png" class="img-fluid w-100" alt="" />
+        <img src="img/FAQ-1.png" class="img-fluid w-100" alt="" />
       </div>
     </div>
   </div>
@@ -627,29 +596,16 @@
         obcaecati, ipsam mollitia hic.
       </p>
     </div>
-    <div class="row g-4">
-      <div
-        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
-        data-wow-delay="0.2s">
+    <div class="row g-4 justify-content-center"> <!-- Added justify-content-center -->
+      <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
         <div class="team-item">
           <div class="team-img">
-            <img
-              src="img/team-1.jpg"
-              class="img-fluid rounded-top w-100"
-              alt="" />
+            <img src="img/team-1.jpg" class="img-fluid rounded-top w-100" alt="" />
             <div class="team-icon">
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-facebook-f"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-twitter"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-linkedin-in"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-0"
-                href=""><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="team-title p-4">
@@ -658,28 +614,15 @@
           </div>
         </div>
       </div>
-      <div
-        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
-        data-wow-delay="0.4s">
+      <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
         <div class="team-item">
           <div class="team-img">
-            <img
-              src="img/team-2.jpg"
-              class="img-fluid rounded-top w-100"
-              alt="" />
+            <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="" />
             <div class="team-icon">
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-facebook-f"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-twitter"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-linkedin-in"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-0"
-                href=""><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="team-title p-4">
@@ -688,58 +631,15 @@
           </div>
         </div>
       </div>
-      <div
-        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
-        data-wow-delay="0.6s">
+      <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
         <div class="team-item">
           <div class="team-img">
-            <img
-              src="img/team-3.jpg"
-              class="img-fluid rounded-top w-100"
-              alt="" />
+            <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="" />
             <div class="team-icon">
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-facebook-f"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-twitter"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-linkedin-in"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-0"
-                href=""><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="team-title p-4">
-            <h4 class="mb-0">David James</h4>
-            <p class="mb-0">Profession</p>
-          </div>
-        </div>
-      </div>
-      <div
-        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
-        data-wow-delay="0.8s">
-        <div class="team-item">
-          <div class="team-img">
-            <img
-              src="img/team-4.jpg"
-              class="img-fluid rounded-top w-100"
-              alt="" />
-            <div class="team-icon">
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-facebook-f"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-twitter"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-2"
-                href=""><i class="fab fa-linkedin-in"></i></a>
-              <a
-                class="btn btn-primary btn-sm-square rounded-pill mb-0"
-                href=""><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="team-title p-4">
@@ -751,6 +651,7 @@
     </div>
   </div>
 </div>
+
 <!-- Team End -->
 
 <!-- Testimonial Start -->
@@ -869,7 +770,7 @@
   </div>
 </div>
 <!-- Testimonial End -->
- 
+
 <!-- ==============================================PAGE CONTENT================================================ -->
 <?php include("co_footer.php") ?>
 <?php include("co_script.php") ?>
