@@ -1,10 +1,11 @@
 body {
-    font-family: 'Roboto', 'Lato', sans-serif !important; /* Use !important if needed */
+    font-family: 'Lato', sans-serif !important; /* Use !important if needed */
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: 'Lato', sans-serif !important; /* Apply Lato to all headings with more specificity */
+    font-family: 'Roboto','Lato', sans-serif !important; /* Apply Lato to all headings with more specificity */
 }
+
 
   /* Flexbox to align logo and text horizontally */
   .navbar-light .navbar-brand {
@@ -439,7 +440,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 @media (min-width: 1200px) {
     .col-xl-3 {
         flex: 0 0 auto;
-        width: 25% !important; /* Override the default width */
+        width: 25% !important; /* Overriding the default width */
     }
 }
 
@@ -448,19 +449,18 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 /*** Service Start ***/
 
-
 .custom-line {
-    width: 100px; /* Length of the line */
-    height: 2px !important; /* Thickness of the line */
-    background-color: #00BFFF; /* Color of the line */
-    border: none; /* Remove default border */
-    margin-left: 0; /* Align left */
+    width: 100px; 
+    height: 2px !important; 
+    background-color: #00BFFF; 
+    border: none; 
+    margin-left: 0; 
 }
-
 
 .service .service-item {
     border-radius: 10px;
 }
+
 .service .service-item .service-img {
     position: relative;
     overflow: hidden;
@@ -527,7 +527,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 }
 
 .service .service-content {
-    margin: 10px;
+    margin: auto;
     position: relative;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

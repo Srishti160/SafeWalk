@@ -3,6 +3,7 @@
 <!-- ==============================================PAGE CONTENT================================================ -->
 
 <!-- Carousel Start -->
+ <section id="about">
 <div class="header-carousel owl-carousel">
   <div class="header-carousel-item bg-primary">
     <div class="carousel-caption">
@@ -23,8 +24,7 @@
                 class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                 <a
                   class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                  href="#">
-                  <!-- <i class="fas fa-play-circle me-2"></i>--> Login </a>
+                  href="#"> Login </a>
                 <a
                   class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2"
                   href="#">Signup</a>
@@ -85,9 +85,10 @@
     </div>
   </div>
 </div>
+ </section>
 <!-- Carousel End -->
 
-<!-- Feature Start -->
+<!-- Features Start -->
 <div class="container-fluid feature bg-light py-5">
   <div class="container py-5">
     <div
@@ -137,21 +138,6 @@
             If needed, trigger an emergency alert instantly to notify your contacts and local authorities and services, allowing for immediate help and assistance.</p>
         </div>
       </div>
-      <!-- <div
-        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
-        data-wow-delay="0.8s">
-        <div class="feature-item p-4 pt-0">
-          <div class="feature-icon p-4 mb-4">
-            <i class="fa fa-headphones fa-3x"></i>
-          </div>
-          <h4 class="mb-4">24/7 Fast Support</h4>
-          <p class="mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic
-            laborum odit pariatur...
-          </p>
-          <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-        </div>
-      </div> -->
     </div>
   </div>
 </div>
@@ -180,7 +166,7 @@
           <p class="text-dark mb-4">
             <i class="fa fa-check text-primary me-3"></i>Our safety features are adaptable.
           </p>
-          <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Information</a>
+          <a class="btn btn-primary rounded-pill py-3 px-5" href="about.php">More Information</a>
         </div>
       </div>
       <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -253,14 +239,8 @@
       class="text-center mx-auto pb-5 wow fadeInUp"
       data-wow-delay="0.2s"
       style="max-width: 800px">
-      <!-- <h4 class="text-primary">Key Features</h4> -->
+      <h4 class="text-primary">Your Safety, Our Priority</h4>
       <h1 class="display-4 mb-4">Key features</h1>
-      <!-- <p class="mb-0">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-        adipisci facilis cupiditate recusandae aperiam temporibus corporis
-        itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-        obcaecati, ipsam mollitia hic.
-      </p> -->
     </div>
     <div class="row g-4 justify-content-center">
       <div
@@ -278,7 +258,7 @@
           </div>
           <div class="service-content p-4">
             <div class="service-content-inner">
-              <a href="#" class="d-inline-block h4 mb-4">24/7 Security Monitoring</a>
+              <h5 class="d-inline-block h4 mb-4">24/7 Security Monitoring</h5>
               <hr class="custom-line">
               <p class="mb-4">
               Continuous real-time monitoring that alerts local authorities in emergencies for immediate assistance, anytime, anywhere.   </p>
@@ -301,10 +281,10 @@
           </div>
           <div class="service-content p-4">
             <div class="service-content-inner">
-              <a href="#" class="d-inline-block h4 mb-4">Emergency Alerts</a>
+              <h5 class="d-inline-block h4 mb-4">Emergency Alerts</h5>
               <hr class="custom-line">
               <p class="mb-4">
-              One-tap alerts to notify trusted contacts and local services with your live location for swift responses in critical moments.  </p>
+              One-tap alerts to notify trusted contacts and local services with your sharing your live location to ensure swift responses and timely assistance during critical moments.  </p>
             </div>
           </div>
         </div>
@@ -324,11 +304,10 @@
           </div>
           <div class="service-content p-4">
             <div class="service-content-inner">
-              <a href="#" class="d-inline-block h4 mb-4">Safe Route Planning</a>
+              <h5 class="d-inline-block h4 mb-4">Safe Route Planning</h5>
               <hr class="custom-line">
               <p class="mb-4">
-              Personalized, safe route suggestions, ensuring users can confidently navigate the safest paths in any environment.                environment.
-              </p>
+              Personalized, safe route suggestions, ensuring users can confidently navigate the safest paths in any environment by helping them to avoid potential risks.  </p>
             </div>
           </div>
         </div>
@@ -359,7 +338,7 @@
         </div> -->
       <!-- </div> -->
       <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-        <a class="btn btn-primary rounded-pill py-3 px-5" href="services.php">More Services</a>
+        <a class="btn btn-primary rounded-pill py-3 px-5" href="service.php">More Services</a>
       </div>
     </div>
   </div>
@@ -445,6 +424,28 @@
                 </div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree">
+                  Q: How does SafeWalk personalize route suggestions?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  A: SafeWalk uses advanced algorithms to analyze real-time data, including local crime reports, traffic, and crowd density, to provide personalized route suggestions. This ensures you are guided along the safest paths based on your current location and surrounding conditions.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -457,19 +458,16 @@
 <!-- FAQs End -->
 
 <!-- Blog Start -->
-<!-- <div class="container-fluid blog py-5">
+<div class="container-fluid blog py-5">
   <div class="container py-5">
     <div
       class="text-center mx-auto pb-5 wow fadeInUp"
       data-wow-delay="0.2s"
       style="max-width: 800px">
       <h4 class="text-primary">From Blog</h4>
-      <h1 class="display-4 mb-4">News And Updates</h1>
+      <h1 class="display-4 mb-4">Insights for a Safer Journey</h1>
       <p class="mb-0">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-        adipisci facilis cupiditate recusandae aperiam temporibus corporis
-        itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-        obcaecati, ipsam mollitia hic.
+      Stay informed with our short, impactful blogs covering key safety tips, user experiences, and how SafeWalk can enhance your daily travels. Whether it's navigating the city or improving personal safety, these insights are designed to empower your journey with knowledge and confidence.
       </p>
     </div>
     <div class="row g-4 justify-content-center">
@@ -481,29 +479,27 @@
               class="img-fluid rounded-top w-100"
               alt="" />
             <div class="blog-categiry py-2 px-4">
-              <span>Business</span>
+              <span>Safety Tips</span>
             </div>
           </div>
           <div class="blog-content p-4">
             <div class="blog-comment d-flex justify-content-between mb-3">
               <div class="small">
-                <span class="fa fa-user text-primary"></span> Martin.C
+                <span class="fa fa-user text-primary"></span> Akriti.K
               </div>
               <div class="small">
                 <span class="fa fa-calendar text-primary"></span> 30 Dec
-                2025
+                2023
               </div>
               <div class="small">
-                <span class="fa fa-comment-alt text-primary"></span> 6
+                <span class="fa fa-comment-alt text-primary"></span> 3
                 Comments
               </div>
             </div>
-            <a href="#" class="h4 d-inline-block mb-3">Which allows you to pay down insurance bills</a>
-            <p class="mb-3">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-              libero soluta impedit eligendi? Quibusdam, laudantium.
-            </p>
-            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+            <h4 class="h4 d-inline-block mb-3">Essential Safety Apps for Urban Commuters</h4>
+            <p class="mb-3"><i>
+            "There are many apps that can help you stay safe while traveling, but which ones are the most effective? We’ve compiled a list of the top five safety apps that can assist you during your daily commutes. One of my Favourite is SafeWalk, it help you feel secure wherever you go! "     </i>      </p>
+            <!-- <a href="blog.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a> -->
           </div>
         </div>
       </div>
@@ -515,29 +511,27 @@
               class="img-fluid rounded-top w-100"
               alt="" />
             <div class="blog-categiry py-2 px-4">
-              <span>Business</span>
+              <span>Personal Stories</span>
             </div>
           </div>
           <div class="blog-content p-4">
             <div class="blog-comment d-flex justify-content-between mb-3">
               <div class="small">
-                <span class="fa fa-user text-primary"></span> Martin.C
+                <span class="fa fa-user text-primary"></span> Jiya.C
               </div>
               <div class="small">
-                <span class="fa fa-calendar text-primary"></span> 30 Dec
-                2025
+                <span class="fa fa-calendar text-primary"></span> 8 April
+                2024
               </div>
               <div class="small">
                 <span class="fa fa-comment-alt text-primary"></span> 6
                 Comments
               </div>
             </div>
-            <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
-            <p class="mb-3">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-              libero soluta impedit eligendi? Quibusdam, laudantium.
-            </p>
-            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+            <h4 class="h4 d-inline-block mb-3">How SafeWalk Saved My Evening Stroll</h4>
+            <p class="mb-3"><i><br>
+            "I was walking home late one night when SafeWalk notified me of an unsafe zone ahead. I quickly rerouted, avoiding a potentially dangerous situation.<br><br> Thanks to SafeWalk’s real-time alerts, I reached home safely!"</i>    </p>
+            <!-- <a href="blog.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a> -->
           </div>
         </div>
       </div>
@@ -549,35 +543,33 @@
               class="img-fluid rounded-top w-100"
               alt="" />
             <div class="blog-categiry py-2 px-4">
-              <span>Business</span>
+              <span>Technology & Innovation</span>
             </div>
           </div>
           <div class="blog-content p-4">
             <div class="blog-comment d-flex justify-content-between mb-3">
               <div class="small">
-                <span class="fa fa-user text-primary"></span> Martin.C
+                <span class="fa fa-user text-primary"></span> Khushi.S
               </div>
               <div class="small">
-                <span class="fa fa-calendar text-primary"></span> 30 Dec
-                2025
+                <span class="fa fa-calendar text-primary"></span> 28 Aug
+                2024
               </div>
               <div class="small">
-                <span class="fa fa-comment-alt text-primary"></span> 6
+                <span class="fa fa-comment-alt text-primary"></span> 8
                 Comments
               </div>
             </div>
-            <a href="#" class="h4 d-inline-block mb-3">Leverage agile frameworks to provide</a>
+            <h4 class="h4 d-inline-block mb-3">The Technology Behind SafeWalk’s Route Planning</h4>
             <p class="mb-3">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-              libero soluta impedit eligendi? Quibusdam, laudantium.
-            </p>
-            <a href="#" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a>
+            <i>"SafeWalk uses cutting-edge algorithms and real-time data analysis to create personalized, safe routes for users. It integrates traffic reports, crime statistics, and user feedback to ensure every route is optimized for safety." </i>    </p>
+            <!-- <a href="blog.php" class="btn p-0">Read More <i class="fa fa-arrow-right"></i></a> -->
           </div>
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 <!-- Blog End -->
 
 <!-- Team Start -->
@@ -590,10 +582,7 @@
       <h4 class="text-primary">Our Team</h4>
       <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
       <p class="mb-0">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-        adipisci facilis cupiditate recusandae aperiam temporibus corporis
-        itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-        obcaecati, ipsam mollitia hic.
+      Get to know the passionate team behind SafeWalk, dedicated to creating safer journeys through innovation and collaboration.
       </p>
     </div>
     <div class="row g-4 justify-content-center"> <!-- Added justify-content-center -->
@@ -602,15 +591,15 @@
           <div class="team-img">
             <img src="img/team-1.jpg" class="img-fluid rounded-top w-100" alt="" />
             <div class="team-icon">
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+              <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a> -->
               <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/surbhi1418/"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="https://www.instagram.com/surbhi_1418?igsh=dXJsMDh5N2pkMDIw"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="team-title p-4">
-            <h4 class="mb-0">David James</h4>
-            <p class="mb-0">Profession</p>
+            <h4 class="mb-0">Surbhi Agrawal</h4>
+            <p class="mb-0">The System Architect</p>
           </div>
         </div>
       </div>
@@ -619,15 +608,15 @@
           <div class="team-img">
             <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="" />
             <div class="team-icon">
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+              <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a> -->
               <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/pushplata-sahu/"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="https://www.instagram.com/lata_0210?igsh=MWFqc2dxMHJlN2NnNA=="><i class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="team-title p-4">
-            <h4 class="mb-0">David James</h4>
-            <p class="mb-0">Profession</p>
+            <h4 class="mb-0">Pushplata Sahu</h4>
+            <p class="mb-0">The Visual Engineer</p>
           </div>
         </div>
       </div>
@@ -636,15 +625,15 @@
           <div class="team-img">
             <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="" />
             <div class="team-icon">
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+              <!-- <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a> -->
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://x.com/srishti816"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href="https://www.linkedin.com/in/srishti-kumari-psk816/"><i class="fab fa-linkedin-in"></i></a>
+              <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href="https://www.instagram.com/srishti.816?igsh=bWh1aXFoOTJ0M2Nt"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
           <div class="team-title p-4">
-            <h4 class="mb-0">David James</h4>
-            <p class="mb-0">Profession</p>
+            <h4 class="mb-0">Srishti Kumari</h4>
+            <p class="mb-0">The User Experience Guru</p>
           </div>
         </div>
       </div>
@@ -664,10 +653,7 @@
       <h4 class="text-primary">Testimonial</h4>
       <h1 class="display-4 mb-4">What Our Customers Are Saying</h1>
       <p class="mb-0">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-        adipisci facilis cupiditate recusandae aperiam temporibus corporis
-        itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
-        obcaecati, ipsam mollitia hic.
+      We prioritize user safety and satisfaction above all. Our community of users shares their experiences and stories, showcasing how SafeWalk has empowered them to navigate confidently and securely. Read on to discover how our innovative features and real-time support have made a positive impact on their journeys. Your safety is our mission, and we’re proud to stand by you every step of the way!
       </p>
     </div>
     <div
@@ -686,8 +672,8 @@
           </div>
           <div class="col-8 col-lg-8 col-xl-9">
             <div class="d-flex flex-column my-auto text-start p-4">
-              <h4 class="text-dark mb-0">Client Name</h4>
-              <p class="mb-3">Profession</p>
+              <h4 class="text-dark mb-0">Khushi Sidar</h4>
+              <p class="mb-3">College Student</p>
               <div class="d-flex text-primary mb-3">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -696,9 +682,7 @@
                 <i class="fas fa-star"></i>
               </div>
               <p class="mb-0">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Enim error molestiae aut modi corrupti fugit eaque rem nulla
-                incidunt temporibus quisquam,
+              I love how easy SafeWalk is to use. From finding safe routes to staying connected with nearby people, it’s now a must-have app for me!
               </p>
             </div>
           </div>
@@ -717,8 +701,8 @@
           </div>
           <div class="col-8 col-lg-8 col-xl-9">
             <div class="d-flex flex-column my-auto text-start p-4">
-              <h4 class="text-dark mb-0">Client Name</h4>
-              <p class="mb-3">Profession</p>
+              <h4 class="text-dark mb-0">Drishti Sarkar</h4>
+              <p class="mb-3">Frequent Traveler</p>
               <div class="d-flex text-primary mb-3">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -727,9 +711,7 @@
                 <i class="fas fa-star text-body"></i>
               </div>
               <p class="mb-0">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Enim error molestiae aut modi corrupti fugit eaque rem nulla
-                incidunt temporibus quisquam,
+              SafeWalk has completely changed the way I navigate the city. I feel much more confident knowing I have real-time safety updates and the ability to notify my contacts instantly.
               </p>
             </div>
           </div>
@@ -748,8 +730,8 @@
           </div>
           <div class="col-8 col-lg-8 col-xl-9">
             <div class="d-flex flex-column my-auto text-start p-4">
-              <h4 class="text-dark mb-0">Client Name</h4>
-              <p class="mb-3">Profession</p>
+              <h4 class="text-dark mb-0">Amisha Kumari</h4>
+              <p class="mb-3">Concerned Parent</p>
               <div class="d-flex text-primary mb-3">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -758,9 +740,7 @@
                 <i class="fas fa-star text-body"></i>
               </div>
               <p class="mb-0">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Enim error molestiae aut modi corrupti fugit eaque rem nulla
-                incidunt temporibus quisquam,
+              As a parent, SafeWalk gives me peace of mind when my kids are out. The live location sharing and safe route suggestions make all the difference.
               </p>
             </div>
           </div>

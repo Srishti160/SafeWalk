@@ -1,3 +1,25 @@
+<?php
+$uniquifier = "safe-walk"; // Dynamic class name if needed
+?>
+
+<head>
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- Include Orbitron, Roboto, and Lato Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Roboto:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    /* Apply Orbitron to the SafeWalk text */
+    .orbitron-<?php echo $uniquifier; ?> {
+      font-family: "Orbitron", sans-serif;
+      font-weight: 900; /* Bold weight for SafeWalk */
+    }
+    </style>
+
 <!-- Footer Start -->
 <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
   <div class="container py-5">
@@ -9,20 +31,20 @@
               <div class="footer-item">
                 <a href="index.php" class="p-0">
                   <h3 class="text-white">
-                    <i class="fab fa-slack me-3"></i> LifeSure
+                    <span class="orbitron-<?php echo $uniquifier; ?>">SafeWalk</span> <!-- Orbitron Font applied here -->
+
                   </h3>
                   <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <p class="text-white mb-4">
-                  Dolor amet sit justo amet elitr clita ipsum elitr
-                  est.Lorem ipsum dolor sit amet, consectetur adipiscing...
+                  A Real-Time Safety Companion<br> Always Close. Always Secure
                 </p>
-                <div class="footer-btn d-flex">
+                <!-- <div class="footer-btn d-flex">
                   <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
                   <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
                   <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
                   <a class="btn btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
@@ -33,12 +55,12 @@
                 <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
                 <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
                 <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
-                <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a> -->
               </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-4">
               <div class="footer-item">
-                <h4 class="mb-4 text-white">Instagram</h4>
+                <h4 class="mb-4 text-white">Social</h4>
                 <div class="row g-3">
                   <div class="col-4">
                     <div class="footer-instagram rounded">
@@ -143,7 +165,7 @@
                     </div>
                     <div>
                       <h4 class="text-white">Address</h4>
-                      <p class="mb-0">123 Street New York.USA</p>
+                      <p class="mb-0">Bhilai Institute of Technology, Durg</p>
                     </div>
                   </div>
                 </div>
@@ -155,11 +177,11 @@
                     </div>
                     <div>
                       <h4 class="text-white">Mail Us</h4>
-                      <p class="mb-0">info@example.com</p>
+                      <p class="mb-0">helpdesk@safewalk.com</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-xl-4">
+                <!-- <div class="col-lg-6 col-xl-4">
                   <div class="d-flex">
                     <div
                       class="btn-xl-square bg-primary text-white rounded p-4 me-4">
@@ -170,7 +192,7 @@
                       <p class="mb-0">(+012) 3456 7890</p>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -179,10 +201,9 @@
 
       <div class="col-xl-3">
         <div class="footer-item">
-          <h4 class="text-white mb-4">Newsletter</h4>
+          <h4 class="text-white mb-4">Subscribe</h4>
           <p class="text-white mb-3">
-            Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit.
+            Subscibe us to get notified for more useful updates and features in future.
           </p>
           <div class="position-relative rounded-pill mb-4">
             <input
@@ -195,7 +216,7 @@
               SignUp
             </button>
           </div>
-          <div class="d-flex flex-shrink-0">
+          <!-- <div class="d-flex flex-shrink-0">
             <div class="footer-btn">
               <a
                 href="#"
@@ -213,7 +234,7 @@
               <span>Call to Our Experts</span>
               <a href="tel:+ 0123 456 7890"><span class="text-white">Free: + 0123 456 7890</span></a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
