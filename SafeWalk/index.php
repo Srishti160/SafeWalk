@@ -17,7 +17,7 @@
               <h1 class="display-1 text-white mb-4">
                 A Real-Time Safety Companion
               </h1>
-              <h3 class="display-5 text-white mb-4">Always Close. &nbsp;&nbsp;Always Secure.</h3>
+              <h3 class="display-5 text-white mb-4">Always Close. &nbsp;Always Secure.</h3>
               <p class="mb-5 fs-5">
                 Committed to safeguarding your journey with real-time solutions that empower safe and confident movement in any setting. </p>
               <div
@@ -71,9 +71,7 @@
                 class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                 <a
                   class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                  href="#">
-                  <!-- <i class="fas fa-play-circle me-2"></i> -->
-                  Login</a>
+                  href="#"> Login</a>
                 <a
                   class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2"
                   href="#">Signup</a>
@@ -98,7 +96,8 @@
       <h4 class="text-primary">SafeWalk Provides You with Reliable Protection</h4>
       <h1 class="display-4 mb-4">How does it Works?</h1>
       <p class="mb-0">
-        Our platform is built to guide you effortlessly, offering step-by-step assistance to ensure safe and confident navigation. With user-friendly design and personalized features, SafeWalk helps you find secure routes and stay informed at every step, ensuring that your safety remains our top priority. </p>
+        Our platform is a real-time safety companion designed to enhance person's safety in potentially unsafe areas. The platform provides users with a virtual companion, real-time location sharing, emergency alerts, and access to safe routes. It leverages technology to create a trusted network of verified volunteers (SafeWalkers) and safe points (police stations, hospitals, etc.), allowing people to feel secure while commuting.
+        </p>
     </div>
     <div class="row g-4">
       <div
