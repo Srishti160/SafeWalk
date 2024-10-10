@@ -134,7 +134,7 @@
           </div>
           <h4 class="mb-4">STEP 3: Stay Safe & Alert</h4>
           <p class="mb-4">
-            If needed, trigger an emergency alert instantly to notify your contacts and local authorities and services, allowing for immediate help and assistance.</p>
+            If needed, trigger an emergency alert instantly to notify your contacts and local authorities and services, allowing users to get immediate help and assistance.</p>
         </div>
       </div>
     </div>
